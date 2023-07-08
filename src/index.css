@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(20, 20, 20);
+  color: #fff;
+}
+.card-bg, .gray-bg {
+  background: rgb(46, 46, 46);
+}
+.card-bg:hover {
+  background: rgb(39, 39, 39);
+}
+ul li:hover {
+  color: rgb(211, 211, 7);
+}
